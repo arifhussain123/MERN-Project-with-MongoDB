@@ -68,6 +68,7 @@ const Signup = () => {
                 placeholder="Your Name"
                 autoComplete="off"
                 value={user.name}
+                ID="Name"
                 onChange={handleInputs}
               />
             </div>
