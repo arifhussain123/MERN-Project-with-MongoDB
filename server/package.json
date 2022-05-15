@@ -1,0 +1,32 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "MERN Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "MERN learing Project",
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifhussain123"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://0.0.0.0:3001",
+      "secure": false
+    }
+  },
+  "author": "Arif",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.16",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  }
+}
