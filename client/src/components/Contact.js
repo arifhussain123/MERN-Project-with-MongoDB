@@ -106,6 +106,23 @@ const Contact = () => {
                       data-error="number is required."
                     />
                   </div>
+                  <div className="contact_form_text mt-5">
+                    <textarea
+                      className=" d-flex text_field contact_form_message"
+                      id="contact_form_message"
+                      placeholder="Message"
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <div className="contact_form_button mt-5">
+                    <button
+                      type="submit"
+                      className=" button contact_submit_button"
+                    >
+                      Send Message
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>

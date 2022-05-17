@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "Porxy": "http://0.0.0.0:3001",
   "dependencies": {
     "@mui/material": "^5.4.1",
     "@mui/styled-engine-sc": "^5.4.1",
@@ -25,12 +26,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "proxy": {
-    "/api": {
-      "target": "http://0.0.0.0:3001",
-      "secure": false
-    }
   },
   "eslintConfig": {
     "extends": [
