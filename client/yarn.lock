@@ -6207,6 +6207,11 @@
     "clsx" "1.1.1"
     "react-popper" "2.2.4"
 
+"mdb-ui-kit@^4.0.0":
+  "integrity" "sha512-aJNTw1nitPhZyQ3gM+qdBiHbtfUFHQ2+1w4g2wZe6AdyAAp+771sKR7ETUK8h39VS9LiyZLR6GycT+IvT1M1fA=="
+  "resolved" "https://registry.npmjs.org/mdb-ui-kit/-/mdb-ui-kit-4.0.0.tgz"
+  "version" "4.0.0"
+
 "mdn-data@2.0.14":
   "integrity" "sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow=="
   "resolved" "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.14.tgz"

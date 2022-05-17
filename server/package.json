@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "MERN Project",
   "main": "index.js",
+
+
+  "server": "nodemon index.js --ignore './client/'",
+  "proxy": {
+    "/api": {
+      "target": "http://0.0.0.0:3001",
+      "secure": false
+    }
+  },
   "scripts": {
     "test": "MERN learing Project",
     "start": "app.js"
@@ -11,12 +20,7 @@
     "type": "git",
     "url": "https://github.com/arifhussain123"
   },
-  "proxy": {
-    "/api": {
-      "target": "http://0.0.0.0:3001",
-      "secure": false
-    }
-  },
+  
   "author": "Arif",
   "license": "MIT",
   "dependencies": {

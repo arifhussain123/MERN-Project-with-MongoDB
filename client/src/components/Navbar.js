@@ -1,4 +1,4 @@
-  // 🔴 MERN #21: Create Registration Page UI using REACT | Signup Form in MERN STACK Project in Hindi
+// 🔴 MERN #23: Create Contact Page UI using ReactJS in MERN STACK PROJECT in Hindi
 
 import React from "react";
 import "./Router.css";
@@ -50,9 +50,16 @@ const Navbar = () => {
               </li>
             </ul>
             <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+              <input
+                className="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
           </div>
         </div>
       </nav>
